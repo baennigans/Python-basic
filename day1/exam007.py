@@ -26,4 +26,3 @@ names = ['홍길동', '강길동', '윤길동']
 for name in names:
     print(name, end=' ')
 print()
-

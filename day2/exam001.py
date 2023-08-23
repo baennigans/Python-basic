@@ -20,12 +20,14 @@ print(data, id(data))
 delData = data.pop()
 print('삭제된 값 : ', delData)
 
+
 data = list()
 data.insert(0, 10)
 data.insert(0, 20)
 data.insert(0, 30)
 delData = data.pop()
 print('삭제된 값 : ', delData)
+
 
 data = []
 data.append(10)
@@ -34,6 +36,7 @@ data.append(30)
 print(data, id(data))
 delData = data.pop(0)
 print('삭제된 값 : ', delData)
+
 
 data = [10, 20, 30, 40, 30]
 idx = data.index(30)
@@ -44,6 +47,7 @@ print('before : ', data)
 data.remove(30)
 print('after : ', data)
 
+
 for i in range(len(data)):
     print(data[i], end=' ')
 print()
@@ -52,6 +56,7 @@ for d in data:
     print(d, end=' ')
 print()
 
+
 # ite = iter(data)
 # print(next(ite))
 
@@ -59,12 +64,14 @@ for d in iter(data):
     print(d, end=' ')
 print()
 
+
 for index, d in enumerate(data, start=100):
     print(f'[{index}] : {d}')
 
 for i in range(1, len(data)+1):
     print(data[-i], end=' ')
 print()
+
 
 data.reverse()
 for d in iter(data):

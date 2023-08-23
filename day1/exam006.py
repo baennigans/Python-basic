@@ -24,6 +24,3 @@ elif r3 % 2:
     print(r3, ': 홀수')
 else:
     print(r3, ': 짝수')
-
-
-
