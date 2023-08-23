@@ -20,4 +20,8 @@ print(bool(1), bool(0), bool(1.5), bool('false'))
 msg = "hello" and "안녕"
 msg = "hello" or "안녕"
 print(msg)
-
+print('Hello')
+print('''Hello''')
+print("""Hello
+여러줄도 가능
+또 라인변경""")

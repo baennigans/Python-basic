@@ -28,7 +28,6 @@ for i in range(9):
     print('*' * cnt)
 
 
-
 for i in range(5):
     if i == 0:
         print('*' * 5)
