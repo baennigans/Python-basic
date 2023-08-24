@@ -12,21 +12,17 @@
 data = [2*i+1 for i in range(10)]
 print(data)
 
-
 # 구구단 데이터 생성
 guguData = [dan*i for dan in range(2, 10)
                     for i in range(1, 10)]
 print(guguData)
 
-
 strData = ['hello', 'good', 'bye', 'welcome', 'apple', 'sorry']
 fiveStrData = [s for s in strData if len(s) == 5]
 print(fiveStrData)
 
-
 copyStrData = strData[:]
 copyStrData2 = strData.copy()
-
 
 print('strData : ', strData, id(strData))
 print('copyStrData : ', copyStrData, id(copyStrData))
