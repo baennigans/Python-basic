@@ -11,8 +11,10 @@ for i in range(1, num+1):
     print(f'{i:<3}', end=' ')
     if not n1:
         print('뽀'*n10,'쑝', end='', sep='')
-    if n1 in [3,6,9]:
+    elif n1 in [3,6,9]:
         print('짝', end='')
-    if n10 in [3,6,9]:
+    elif n10 in [3,6,9]:
         print('짝', end='')
+    else:
+        print(i, end='')
     print()

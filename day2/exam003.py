@@ -1,4 +1,5 @@
 # 1 ~ 10사이의 정수 10개를 원소로 가지는 리스트 data 선언
+
 # 방법1
 # data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -9,6 +10,7 @@
 
 # 방법3
 # data = [i+1 for i in range(10) if (i+1) % 2]
+
 data = [2*i+1 for i in range(10)]
 print(data)
 

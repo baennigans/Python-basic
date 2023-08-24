@@ -7,4 +7,3 @@ print(num01, num02)
 print(type('12,5'.split()))
 num01, num02 = input('두개의 정수를 입력 : ').split()
 print(num01, num02)
-
