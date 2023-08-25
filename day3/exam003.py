@@ -32,4 +32,4 @@ print()
 
 value = members.get('홍길동')
 print(f'홍길동 : {value}')
-print(f'이길동 : {members.get("이길동")}')
+print(f'이길동 : {members.get("이길동","존재하지 않음")}')
