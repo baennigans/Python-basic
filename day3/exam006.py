@@ -11,7 +11,6 @@ print(mem.get('26소2756'))
 data = [key for key, value in members.items() if value == '26소2756']
 print(data[0])
 
-
 # for key, value in members.items():
 #     if value == '26소2756':
 #         print(key)
