@@ -20,3 +20,4 @@ print(f'총합 : {getTotal(*[10, 20, 30, 40])}')
 print(getSum(10, 20, 30, 40))
 print(getSum(10, 20, 30, 40, 50, 60))
 print(getSum(10, 20))
+
